@@ -1,0 +1,71 @@
+.admin {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 15%;
+}
+.editProd {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    gap: 10px
+}
+.editProd label {
+    margin-bottom: -5px;
+}
+.editProd input {
+    width: 250px;
+}
+.editProd button {
+    width: 130px;
+    min-height: 30px;
+    background: none;
+    border: 1px solid black;
+    padding: 5px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.editProd button:hover {
+    transition: all .3s;
+    background: rgb(54, 54, 54);
+    color: white;
+}
+.image_edit {
+    display: none;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+}
+.card > *,
+.cardUser > * {
+    width: 200px;
+    padding: 7px;
+    text-align: center;
+    border: 1px solid black;
+}
+.deleteProd {
+    width: 150px;
+    height: 35px;
+    background: rgba(255, 0, 0, 0.432);
+    font-weight: bold;
+    cursor: pointer;
+}
+.saveRole {
+    background: none;
+    border: none;
+    width: 55px;
+    height: 35px;
+    cursor: pointer;
+}
+.saveRole:hover #colorSvg {
+    transition: all .3s;
+    fill: #d1ff95;
+}
+.imageEdit {
+    width: 400px;
+    height: 400px;
+}
+.cardUser {
+    display: flex;
+}

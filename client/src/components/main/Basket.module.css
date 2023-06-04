@@ -1,0 +1,61 @@
+.basketBack {
+    background: url('../../assets/image/backMain.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.basket {
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.123);
+    border-radius: 10px;
+    padding: 15px;
+    
+    
+}
+.nastedBasket {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cardPhoto {
+    width: 250px;
+    height: 250px;
+    background-position: center center;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    
+}
+.cardBasket {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    padding: 50px 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    background-color: white;
+}
+.buy {
+    background-color: white;
+    width: 70%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.toPay {
+    border: 2px solid rgb(0, 0, 0);
+    background: none;
+    padding: 7px 12px;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.toPay:hover {
+    transition: all .3s;
+    background: rgba(0, 172, 0, 0.404);
+}

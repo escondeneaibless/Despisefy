@@ -1,0 +1,115 @@
+.main {
+    background: url("../../assets/image/backMain.jpg");
+    display: flex;
+    justify-content: center;
+}
+.nestedMain {
+    background: linear-gradient(to right, transparent, white 1% , white 99%,transparent);
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 90px;
+    padding: 40px 0;
+}
+.cardsElectronic {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 0 60px;
+}
+.cardTech {
+    height: 350px !important;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.123);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.headerCard {
+    font-family: "Bitter";
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+.buy {
+    text-decoration: none;
+    color: rgb(161, 161, 161);
+    font-style: italic;
+}
+.buy:hover {
+    transition: all .3s;
+    color: green;
+}
+.cardTech:nth-last-child(8){
+    background: url("../../assets/image/airpods.jpg"); 
+}
+.cardTech:nth-last-child(7){
+    background: url("../../assets/image/headphones.jpg")
+}
+.cardTech:nth-last-child(6){
+    background: url("../../assets/image/phone.jpg");
+}
+.cardTech:nth-last-child(5){
+    background: url("../../assets/image/laptop.jpg");
+}
+.cardTech:nth-last-child(4){
+    background: url("../../assets/image/cap.jpg");
+    margin-top: 60px;
+}
+.cardTech:nth-last-child(3){
+    background: url("../../assets/image/Tshirt.jpeg");
+    margin-top: 60px;
+}
+.cardTech:nth-last-child(2){
+    background: url("../../assets/image/hoodie.png");
+    margin-top: 60px;
+}
+.cardTech:nth-last-child(1){
+    background: url("../../assets/image/sneakers.jpeg");
+    margin-top: 60px;
+}
+.cardsElectronic > .cardTech {
+    background-size: 150px 150px;
+    background-position: center center;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+}
+.cardTech:nth-last-child(1),
+.cardTech:nth-last-child(2),
+.cardTech:nth-last-child(3),
+.cardTech:nth-last-child(4) {
+    background-size: 150px 150px;
+    background-position: center center;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+}
+#cardOne {
+    width: 250px;
+    height: 300px;
+    background-size: 200px 200px;
+    background-position: center center;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+}
+.line {
+    width: 50%;
+    height: 1px;
+    background-color: rgba(128, 128, 128, 0.514);
+}
+.editBasket {
+    border: 1px solid rgb(0, 0, 0);
+    background: none;
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.editBasket:hover {
+    transition: all .3s;
+    background: rgba(0, 172, 0, 0.404);
+}

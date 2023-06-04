@@ -1,0 +1,62 @@
+.registrationContain {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 81vh;
+    background: url("../../../assets/image/backEnter.jpg");
+    background-size: cover;
+}
+.form h1 {
+    place-self: center;
+}
+.form button {
+    align-self: center;
+    width: 150px;
+    height: 45px;
+    border-radius: 15px;
+    font-size: 16px;
+    background-color: #50a2ff;
+    transition: ease-out 0.8s;
+    box-shadow: inset 0 0 0 0 #0f003f;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.form button:hover {
+    box-shadow: inset 0 100px 0 0 #0f003f;
+    color: white;
+
+}
+.form {
+    margin-right: 10%;
+    background-color: #fff;
+    border-radius: 45px;
+}
+.nestedForm {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+    height: 350px;
+    gap: 25px;
+    border-radius: 100px;
+    background-color: #282c34;
+    color: #fff;
+}
+.strForm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input_form {
+    float: right;
+    margin-left: 10px;
+    width: 220px;
+    height: 36px;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-size: 15px;
+    padding: 0 10px;
+    border: 1px solid gray;
+    background-color: rgb(171, 171, 255);
+}
