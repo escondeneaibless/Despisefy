@@ -35,7 +35,6 @@ const Main = () => {
             Рекомендуемый товар
           </h1>
           <div className={s.cardsElectronic}>
-
             {list.map((item) => (  
               item.id <= 8 ? 
                 <div className={s.cardTech}>

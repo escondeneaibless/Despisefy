@@ -80,12 +80,15 @@ app.post("/login", function (req, res) {
     pool.query("SELECT * FROM users ", (err, result) => {
       if (err) { res.send(err) }
       if (file) {
-        if (file[0] == result[0].phone) {
-          const hashPas = bcrypt.compareSync(file[1], result[0].password);
-          if (!hashPas) {
-            return res.send('Неправильный пароль')
-          } else { return res.send("Вход выполнен") }
-        } else { return res.send('Неправильный номер') }
+        console.log(result.length);
+        for (let i = 0; i< result.length; i++) {
+          console.log(result[i].phone)
+          if (file[0] == result[i].phone && bcrypt.compareSync(file[1], result[i].password)) {
+            res.send('Вход выполнен')
+
+          }
+        }
+        
       }
     })
   });
